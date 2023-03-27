@@ -1,0 +1,86 @@
+/* apply a font that is commonly used in newspapers */
+body {
+    font-family: Georgia, serif;
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  
+  /* add some margin to the header and main sections */
+  header, main {
+    margin: 2rem;
+  }
+  
+  /* style the header with a background color and center the text */
+  header {
+    background-color: #ddd;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  /* style the h1 and h2 headings */
+  h1, h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin: 2rem 0;
+  }
+  
+  /* add some space between the list items and the links */
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 1rem;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  /* style the images to fit within the text */
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 2rem auto;
+  }
+  
+  /* style the caption for the images */
+  figcaption {
+    font-style: italic;
+    text-align: center;
+    margin-top: 0.5rem;
+  }
+  
+  /* add a border and some padding to the table */
+  table {
+    border-collapse: collapse;
+    border: 1px solid #333;
+    margin: 2rem auto;
+  }
+  
+  th, td {
+    padding: 0.5rem;
+    border: 1px solid #333;
+  }
+  
+  th {
+    font-weight: bold;
+  }
+  
+  caption {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+table, tr, th, td, caption{
+    border: 1px solid #000000;
+    font-family:'Courier New', Courier, monospace;
+    border-collapse: collapse;
+    padding: 0.5rem;
+}
